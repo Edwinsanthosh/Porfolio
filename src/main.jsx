@@ -4,10 +4,65 @@ import './style.css';
 import helmetGlow from './assets/horned-helmet-glow.png';
 
 const projects = [
-  { id: '01', title: 'Project Management Portal', short: 'PORTAL', category: 'FULL-STACK', subtitle: 'A structured space for serious projects.', technologies: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'Sequelize', 'JWT'], description: 'A platform for managing the final-year project workflow, including team formation, mentor assignment, project submissions, approvals, and project progress.', tone: 'portal', actions: ['VIEW PROJECT', 'GITHUB'] },
-  { id: '02', title: 'SplitSnap', short: 'SPLITSNAP', category: 'AI + FULL-STACK', subtitle: 'AI receipt & expense tracker.', technologies: ['AI', 'LLM', 'Streamlit', 'Automation'], description: 'An AI-powered receipt and expense tracker that extracts receipt items and amounts and helps users split expenses between multiple people.', tone: 'split', actions: ['LIVE DEMO', 'GITHUB'] },
-  { id: '03', title: 'AI Job Tracker', short: 'JOB TRACKER', category: 'AI + AUTOMATION', subtitle: 'A calmer way to find the right role.', technologies: ['n8n', 'Gemini', 'RSS', 'Google Sheets', 'LLM'], description: 'An automated workflow that collects job postings, analyzes technical requirements using AI, extracts relevant skills, and generates personalized cover letters.', tone: 'jobs', actions: ['GITHUB'] },
-  { id: '04', title: 'AI News Summarizer', short: 'NEWS / AI', category: 'AI + AUTOMATION', subtitle: 'The signal, without the noise.', technologies: ['n8n', 'OpenAI', 'RSS', 'Gmail', 'LLM'], description: 'An automated workflow that collects AI and technology news, processes the articles using an LLM, generates concise summaries, and delivers the final digest through email.', tone: 'news', actions: ['GITHUB'] }
+  {
+    id: '01',
+    title: 'Project Management Portal',
+    short: 'PORTAL',
+    category: 'FULL-STACK',
+    subtitle: 'A structured space for serious projects.',
+    technologies: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'Sequelize', 'JWT'],
+    description: 'A platform for managing the final-year project workflow, including team formation, mentor assignment, project submissions, approvals, and project progress.',
+    tone: 'portal',
+    actions: ['VIEW PROJECT', 'GITHUB']
+  },
+
+  {
+    id: '02',
+    title: 'SplitSnap',
+    short: 'SPLITSNAP',
+    category: 'AI + FULL-STACK',
+    subtitle: 'AI receipt & expense tracker.',
+    technologies: ['AI', 'LLM', 'Streamlit', 'Automation'],
+    description: 'An AI-powered receipt and expense tracker that extracts receipt items and amounts and helps users split expenses between multiple people.',
+    tone: 'split',
+    actions: ['LIVE DEMO', 'GITHUB']
+  },
+
+  {
+    id: '03',
+    title: 'AI Job Tracker',
+    short: 'JOB TRACKER',
+    category: 'AI + AUTOMATION',
+    subtitle: 'A calmer way to find the right role.',
+    technologies: ['n8n', 'Gemini', 'RSS', 'Google Sheets', 'LLM'],
+    description: 'An automated workflow that collects job postings, analyzes technical requirements using AI, extracts relevant skills, and generates personalized cover letters.',
+    tone: 'jobs',
+    actions: ['GITHUB']
+  },
+
+  {
+    id: '04',
+    title: 'AI News Summarizer',
+    short: 'NEWS / AI',
+    category: 'AI + AUTOMATION',
+    subtitle: 'The signal, without the noise.',
+    technologies: ['n8n', 'OpenAI', 'RSS', 'Gmail', 'LLM'],
+    description: 'An automated workflow that collects AI and technology news, processes the articles using an LLM, generates concise summaries, and delivers the final digest through email.',
+    tone: 'news',
+    actions: ['GITHUB']
+  },
+
+  {
+    id: '05',
+    title: 'Sentiscan',
+    short: 'SENTISCAN',
+    category: 'AI',
+    subtitle: 'AI-powered sentiment analysis.',
+    technologies: ['AI', 'NLP'],
+    description: 'An AI-powered application for analyzing text and identifying sentiment from user input.',
+    tone: 'sentiscan',
+    actions: ['LIVE DEMO', 'GITHUB']
+  }
 ];
 
 function Icon({ name, size = 18 }) {
